@@ -1,0 +1,26 @@
+html {
+  background: url(images/bgd.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  background: none;
+}
+
+.container {
+  text-align: center;
+  width: 400px;
+}
+
+#homeContainer {
+  margin-top: 150px;
+}
+
+#loginForm {
+  display: none;
+}
+
+#diary {
+  width: 100%;
+  height: 90%;
+}
