@@ -77,7 +77,10 @@
     <div class="container" id="homeContainer">
       <h1>Secret Diary</h1>
       <p><strong>Save your memory</strong></p>
-      <div id="error"><?php echo $error; ?></div>
+      <div id="error"><?php if ($error != '') {
+        echo '<div class="alert alert-danger" role="alert">'
+        .$error.'</div>';
+      } ?></div>
 
       <form method="post" id="signupForm">
         <p>Don't wait, join now</p>
